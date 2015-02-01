@@ -1,6 +1,4 @@
 NSDictionary *courses = @{
-    @"Chem 20A" : @[],
-    @"EEM 116L" : @[],
     @"CS 1" : @[],
     @"CS 31" : @[],
     @"CS 32" : @[@"CS 31"],
@@ -27,7 +25,7 @@ NSDictionary *courses = @{
     @"Math 61" : @[@"Math 31A", @"Math 31B"],
     @"Phy 1A" : @[@"Math 31A", @"Math 31B"],
     @"Phy 1B" : @[@"Phy 1A", @"Math 32A", @"Math 31B"],
-    @"Phy 1C" : @[],
-    @"Phy 4AL" : @[],
-    @"Phy 4BL" : @[],
+    @"Phy 1C" : @[@"Phy 1A", @"Phy 1B", @"Math 32A", @"Math 32B"],
+    @"Phy 4AL" : @[@"Phy 1A"],
+    @"Phy 4BL" : @[@"Phy 1A", @"Phy 1B"],
 };
